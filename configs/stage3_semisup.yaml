@@ -1,0 +1,19 @@
+stage: 3
+name: phy_topo_stage3_semisup
+architecture: phytopo
+initial_checkpoint: phy_topo_physics_guided/best_model.pth
+optimizer: Adam
+learning_rate: 5.0e-6
+epochs: 20
+supervised_batch_size: 128
+unlabeled_batch_size: 128
+loss_weights:
+  pixel: 0.5
+  gradient: 0.5
+  spectral: 0.1
+  cycle: 0.03
+cycle_pool_size: 16
+training_patches: 763776
+validation_patches: 54912
+unlabeled_samples: 8526
+trainable_parameters: 838404

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use PhyTopo-Net, please cite this software and the associated manuscript."
+title: "PhyTopo-Net: WRF-supervised reconstruction of coastal typhoon wind fields"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Shuxian
+  - family-names: Cai
+    given-names: Huayang
+  - family-names: Wang
+    given-names: Yajun
+  - family-names: Wang
+    given-names: Jiuke
+version: 1.0.0
+date-released: 2026-10-04
+license: MIT
+abstract: >-
+  WRF-supervised reconstruction of 3-km near-surface wind and pressure fields
+  from multivariable ERA5 states and static lower-boundary information.
+preferred-citation:
+  type: article
+  title: "Recovering the suppressed upper tail of coastal typhoon winds from ERA5 using WRF-supervised reconstruction"
+  authors:
+    - family-names: Wang
+      given-names: Shuxian
+    - family-names: Cai
+      given-names: Huayang
+    - family-names: Wang
+      given-names: Yajun
+    - family-names: Wang
+      given-names: Jiuke
+  year: 2026
